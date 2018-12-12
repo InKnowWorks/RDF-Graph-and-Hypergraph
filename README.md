@@ -4,11 +4,13 @@ Here you'll find demo solutions sourced from Visual Studio 2017, projects writte
 
 Topics Explored and Explained:
 - RDF Triple and Graph Theory and Practice
-- RDF Triple and HyperGrpah Thoery and Practice
-- RDF Triple and Property Graph Thoery and Practice
+- RDF Triple and HyperGrpah Theory and Practice
+- RDF Triple and Property Graph Theory and Practice
 
 GraphEngine Deep Drives:
 - GraphEngine programming models
 - GraphEngine and the Azure Service Fabric
+- Graph Discovery and Exploration
+- GraphEngine Language Integrated Knowledge Query (LIKQ)
 
 much more..
