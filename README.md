@@ -6,11 +6,23 @@ Topics Explored and Explained:
 - RDF Triple and Graph Theory and Practice
 - RDF Triple and HyperGrpah Theory and Practice
 - RDF Triple and Property Graph Theory and Practice
+- RDF/RDFFS TSL Data modeling
+- Relational Modeling and Computing with RDF Triple GrpahEngine MemoryCloud
+- How to model OWL 2 DL projects in TSL - Getting started
 
-GraphEngine Deep Drives:
+GraphEngine + Ontology & Taxonomny
+- 
+
+GraphEngine Deep Dives:
 - GraphEngine programming models
 - GraphEngine and the Azure Service Fabric
 - Graph Discovery and Exploration
 - GraphEngine Language Integrated Knowledge Query (LIKQ)
+- Auto ingestions from legacy sources
 
-much more..
+Working with Data: In all of the examples and we center our semantic modeling around People and what people do in the world of Real Estate
+- BFO Upper Ontology and GE TSL Data Model
+- OREO Upper Ontology
+- People Ontology
+- Contact Ontology
+lots more.. 
