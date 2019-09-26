@@ -11,7 +11,9 @@ Topics Explored and Explained:
 - How to model OWL 2 DL projects in TSL - Getting started
 
 GraphEngine + Ontology & Taxonomny
-- 
+- SKOS TSL Modeling
+- OWL 2 DL TSL Modeling
+- RDF/RDFS TSL Modeling
 
 GraphEngine Deep Dives:
 - GraphEngine programming models
