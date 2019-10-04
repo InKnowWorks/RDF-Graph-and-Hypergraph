@@ -10,6 +10,13 @@ Topics Explored and Explained:
 - Relational Modeling and Computing with RDF Triple GrpahEngine MemoryCloud
 - How to model OWL 2 DL projects in TSL - Getting started
 
+- SPARQL vs LIKQ Comparision Study
+- Graph Egnine Programming Idioms for Search
+- BFS, BackTracking, Blocking
+- Rule Processing via Dynamic Lambda Injection
+- Generic Programming with the GE (Server-side)
+- Generic Programming with Attribute Mark-up with the GE (Server and Client)
+
 GraphEngine + Ontology & Taxonomny
 - SKOS TSL Modeling
 - OWL 2 DL TSL Modeling
