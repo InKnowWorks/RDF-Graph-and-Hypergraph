@@ -1,6 +1,8 @@
 # RDF Graph, HyperGraph and Property Graph Data Model design and Programming for GraphEngine MemoryClould Knowledge-base Development
-Exploraton, teaching and learning of RDF Graph and HyperGraph Data Modeling using Microsoft GraphEngine TSL, Computed DSL, LIKQ and APIs.
+Exploration, teaching and learning of RDF Graph and HyperGraph Data Modeling using Microsoft GraphEngine TSL, Computed DSL, LIKQ and APIs.
 Here you'll find demo solutions sourced from Visual Studio 2019, projects written in C# 8.x; explore .NET Core 3.x Console, WPF projects that explain Data Modeling of RDF (Directed/Multi Graph), Property Graph and HyperGraph productions using the Microsoft GraphEngine and it's TSL modeling language.
+
+* Draft of a new book - Microsoft Graph Engine Developer's Guide - (In Progress)
 
 Topics Explored and Explained:
 - RDF Triple and Graph Theory and Practice
@@ -9,6 +11,10 @@ Topics Explored and Explained:
 - RDF/RDFS TSL Data modeling
 - Relational Modeling and Computing with RDF Triple GrpahEngine MemoryCloud
 - How to model OWL 2 DL projects in TSL - Getting started
+- How to use the Grap Engine LIKQ
+  - Client-side
+  - Server-side
+  - Desgin Lessons
 
 - SPARQL vs LIKQ Comparision Study
 - Graph Egnine Programming Idioms for Search
@@ -21,10 +27,16 @@ GraphEngine + Ontology & Taxonomny
 - SKOS TSL Modeling
 - OWL 2 DL TSL Modeling
 - RDF/RDFS TSL Modeling
+- Semantic Reasoning using LIKQ + Ontology
+- Graph Engine Adapter using Graph Engine Generics
+  - TSL to RDFS, RDF, BFO OWL 2
 
 GraphEngine Deep Dives:
 - GraphEngine programming models
-- GraphEngine and the Azure Service Fabric
+- Hosting Graph Engine App Server and Graph Engine runtimes
+- Symmetric Networking Programming with Graph Engine
+  - How to leverage Rx for Reactive Call=backs
+- Push Automation with Graph Egnine
 - Graph Discovery and Exploration
 - GraphEngine Language Integrated Knowledge Query (LIKQ)
 - Auto ingestions from legacy sources
@@ -37,4 +49,5 @@ Working with Data: In all of the examples and we center our semantic modeling ar
 - IAO - Information Artifact Ontology: http://www.obofoundry.org/ontology/iao.html
 - People Ontology based on BFO and IAO: InKnowWorks and RocketUrBiz
 - Contact Ontology based on BFO and IAO: InKnowWorks and RocketUrBiz
+- Advanced KB and KG using Graph Engine
 lots more.. 
