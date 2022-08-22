@@ -1,6 +1,6 @@
 # RDF Graph, HyperGraph and Property Graph Data Model design and Programming for GraphEngine MemoryClould Knowledge-base Development
 Exploration, teaching and learning of RDF Graph and HyperGraph Data Modeling using Microsoft GraphEngine TSL, Computed DSL, LIKQ and APIs.
-Here you'll find demo solutions sourced from Visual Studio 2019, projects written in C# 8.x; explore .NET Core 3.x Console, WPF projects that explain Data Modeling of RDF (Directed/Multi Graph), Property Graph and HyperGraph productions using the Microsoft GraphEngine and it's TSL modeling language.
+Here you'll find demo solutions sourced from Visual Studio 2022, projects written in C# 10.x; explore .NET Core Console, WPF/winUi/MAUI projects that explain Data Modeling of RDF (Directed/Multi Graph), Property Graph and HyperGraph productions using the Microsoft GraphEngine and it's TSL modeling language.
 
 * Draft of a new book - Microsoft Graph Engine Developer's Guide - (In Progress)
 
