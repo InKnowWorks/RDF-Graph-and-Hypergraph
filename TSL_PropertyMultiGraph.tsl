@@ -1,0 +1,49 @@
+TrinitySettings 
+{
+	RootNamespace: Property.MultiGraph;
+}
+
+// Property.tsl
+struct Property
+{
+    string Key;
+    string Value;
+}
+
+[GraphNode]
+cell struct Node
+{
+    CellId NodeId;
+    string Name;
+    [PropertyEdges]
+    // Strongly Types List of Properties
+    List<Property> Properties;
+}
+
+[GraphNode: EdgeNode]
+cell struct Edge
+{
+    CellId EdgeId;
+    string Relationship;
+    // Strongly Types List of Properties
+    List<Property> Properties;
+}
+
+// Typed MultiGraph Edge
+
+struct MultigraphEdge
+{
+    CellId SourceNodeId;
+    CellId TargetNodeId;
+    [MuliGraphEdge]
+    List<CellId> EdgeIds; 
+}
+
+[GraphNode]
+cell struct Multigraph
+{
+    CellId MultigraphId;
+    List<CellId> NodeIds;
+    List<CellId> EdgeIds;
+    List<MultigraphEdge> MultigraphEdges;
+}
