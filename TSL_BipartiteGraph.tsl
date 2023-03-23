@@ -1,0 +1,37 @@
+TrinitySettings
+{
+    RootNamespace: Property.BipartiteGraph;
+}
+
+struct Property
+{
+    string Key;
+    string Value;
+}
+
+[GraphNode]
+cell struct LeftNode
+{
+    CellId NodeId;
+    string Name;
+    [AssociationEdge("LeftNodeEdge")]
+    List<CellId> Edges;
+    List<Property> Properties;
+}
+
+[GraphNode]
+cell struct RightNode
+{
+    CellId NodeId;
+    string Name;
+    List<Property> Properties;
+}
+
+[AssociationEdge]
+cell struct Edge
+{
+    CellId EdgeId;
+    string Name;
+    List<CellId> RightNodes;
+    List<Property> Properties;
+}
