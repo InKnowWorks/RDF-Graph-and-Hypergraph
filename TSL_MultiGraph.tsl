@@ -1,0 +1,27 @@
+/*
+In computer science, a multigraph is a graph that allows multiple edges (also called parallel edges) between any two nodes. 
+A multigraph can also have loops, which are edges that connect a node to itself.
+
+More formally, a multigraph is defined as a pair G = (V, E), where V is a set of vertices and E is a set of edges. 
+Each edge e ∈ E is a pair of vertices (u, v), and may be associated with a weight or value. In a multigraph, 
+there can be multiple edges between the same pair of vertices, and self-loops are allowed.
+
+In contrast to a multigraph, a simple graph is a graph that does not allow parallel edges or self-loops. 
+A simple graph can be defined as a pair G = (V, E), where V is a set of vertices and E is a set of edges, 
+with each edge e ∈ E being a pair of distinct vertices (u, v).
+*/
+
+I hope this helps clarify the definition of a multigraph in computer science.
+
+cell MultigraphNode
+{
+    CellId Id;
+    list<MultigraphEdge> Edges;
+}
+
+struct MultigraphEdge
+{
+    CellId SourceId;
+    CellId TargetId;
+    CellId Value;
+}
