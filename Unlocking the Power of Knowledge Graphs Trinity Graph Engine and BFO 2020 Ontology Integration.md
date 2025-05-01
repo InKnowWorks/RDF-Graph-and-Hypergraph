@@ -2,8 +2,6 @@
 
 
 
-![image-20250501133822580](C:/Users/tavi/AppData/Roaming/Typora/typora-user-images/image-20250501133822580.png)
-
 ## A Technical White Paper
 
 *By Tavi Truman, CTO & Co-founder* *RocketUrBiz, Inc.*
