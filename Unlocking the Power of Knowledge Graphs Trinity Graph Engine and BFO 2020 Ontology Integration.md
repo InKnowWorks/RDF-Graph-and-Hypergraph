@@ -1,6 +1,6 @@
 # Unlocking the Power of Knowledge Graphs: Trinity Graph Engine and BFO 2020 Ontology Integration
 
-
+HeroImageForMayArticle-001.png
 
 ## A Technical White Paper
 
