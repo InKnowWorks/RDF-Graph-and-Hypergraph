@@ -2,7 +2,7 @@
 
 ## Tavi Truman, CTO, RocketUrBiz, Inc.
 
-![RocketUrBiz_Trans](/Q:/Source/RUB-QWC/RUB.Tarvalon.QWC.MainUIShell.Module/Images/RUB_ICONS/RocketUrBiz_Trans.png)
+![RocketUrBiz_Trans](https://github.com/InKnowWorks/RDF-Graph-and-Hypergraph/blob/master/RocketUrBiz_Trans.png)
 
 ![OPRE Header](G:\My Downloads Space\opre-header.svg)
 
