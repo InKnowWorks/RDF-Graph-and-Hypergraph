@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8f9fa" />
+      <stop offset="100%" stop-color="#e9ecef" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3" />
+    </filter>
+    
+    <!-- Entity Color -->
+    <linearGradient id="entity-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5c6bc0" />
+      <stop offset="100%" stop-color="#3949ab" />
+    </linearGradient>
+    
+    <!-- Continuant Color -->
+    <linearGradient id="continuant-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4fc3f7" />
+      <stop offset="100%" stop-color="#039be5" />
+    </linearGradient>
+    
+    <!-- Occurrent Color -->
+    <linearGradient id="occurrent-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ef5350" />
+      <stop offset="100%" stop-color="#d32f2f" />
+    </linearGradient>
+    
+    <!-- Independent Continuant Color -->
+    <linearGradient id="independent-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#81c784" />
+      <stop offset="100%" stop-color="#43a047" />
+    </linearGradient>
+    
+    <!-- Generically Dependent Continuant Color -->
+    <linearGradient id="gdc-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#80deea" />
+      <stop offset="100%" stop-color="#26c6da" />
+    </linearGradient>
+    
+    <!-- Specifically Dependent Continuant Color -->
+    <linearGradient id="sdc-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9fa8da" />
+      <stop offset="100%" stop-color="#5c6bc0" />
+    </linearGradient>
+    
+    <!-- Process Color -->
+    <linearGradient id="process-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffb74d" />
+      <stop offset="100%" stop-color="#fb8c00" />
+    </linearGradient>
+    
+    <!-- Material Entity Color -->
+    <linearGradient id="material-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#aed581" />
+      <stop offset="100%" stop-color="#7cb342" />
+    </linearGradient>
+    
+    <!-- Spatial Region Color -->
+    <linearGradient id="spatial-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a5d6a7" />
+      <stop offset="100%" stop-color="#66bb6a" />
+    </linearGradient>
+    
+    <!-- Process Boundary Color -->
+    <linearGradient id="boundary-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffcc80" />
+      <stop offset="100%" stop-color="#ffb74d" />
+    </linearGradient>
+    
+    <!-- Object Color -->
+    <linearGradient id="object-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c5e1a5" />
+      <stop offset="100%" stop-color="#9ccc65" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="600" fill="url(#bg-gradient)" />
+
+  <!-- Title -->
+  <text x="500" y="50" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-weight="bold" font-size="28">OPRE Runtime Type System</text>
+
+  <!-- Entity (Root) -->
+  <rect x="425" y="80" width="150" height="50" rx="10" fill="url(#entity-gradient)" filter="url(#shadow)" />
+  <text x="500" y="112" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="18">Entity</text>
+
+  <!-- Main Division: Continuant and Occurrent -->
+  <rect x="175" y="180" width="300" height="50" rx="10" fill="url(#continuant-gradient)" filter="url(#shadow)" />
+  <text x="325" y="212" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="18">Continuant</text>
+
+  <rect x="525" y="180" width="300" height="50" rx="10" fill="url(#occurrent-gradient)" filter="url(#shadow)" />
+  <text x="675" y="212" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="18">Occurrent</text>
+
+  <!-- Continuant Subtypes -->
+  <rect x="50" y="280" width="200" height="50" rx="10" fill="url(#independent-gradient)" filter="url(#shadow)" />
+  <text x="150" y="312" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="16">Independent Continuant</text>
+
+  <rect x="275" y="280" width="200" height="50" rx="10" fill="url(#gdc-gradient)" filter="url(#shadow)" />
+  <text x="375" y="312" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="16">Generically Dependent</text>
+
+  <rect x="500" y="280" width="200" height="50" rx="10" fill="url(#sdc-gradient)" filter="url(#shadow)" />
+  <text x="600" y="312" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="16">Specifically Dependent</text>
+
+  <!-- Occurrent Subtypes -->
+  <rect x="725" y="280" width="200" height="50" rx="10" fill="url(#process-gradient)" filter="url(#shadow)" />
+  <text x="825" y="312" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="16">Process</text>
+
+  <!-- Independent Continuant Subtypes -->
+  <rect x="25" y="380" width="120" height="50" rx="10" fill="url(#material-gradient)" filter="url(#shadow)" />
+  <text x="85" y="412" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="14">Material Entity</text>
+
+  <rect x="165" y="380" width="120" height="50" rx="10" fill="url(#spatial-gradient)" filter="url(#shadow)" />
+  <text x="225" y="412" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="14">Spatial Region</text>
+
+  <!-- Process Subtypes -->
+  <rect x="725" y="380" width="200" height="50" rx="10" fill="url(#boundary-gradient)" filter="url(#shadow)" />
+  <text x="825" y="412" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="14">Process Boundary</text>
+
+  <!-- Material Entity Subtypes -->
+  <rect x="25" y="480" width="120" height="50" rx="10" fill="url(#object-gradient)" filter="url(#shadow)" />
+  <text x="85" y="512" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="14">Object</text>
+
+  <!-- Implementation Note -->
+  <rect x="200" y="480" width="600" height="100" rx="10" fill="white" stroke="#ddd" stroke-width="1" filter="url(#shadow)" />
+  <text x="500" y="505" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-weight="bold" font-size="16">OPRE Type System Implementation</text>
+  <text x="500" y="535" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14">• Full BFO 2020 type hierarchy implemented as C# enumerations</text>
+  <text x="500" y="565" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14">• Runtime type checking enforces ontological constraints</text>
+  
+  <!-- Connector Lines -->
+  <line x1="500" y1="130" x2="325" y2="180" stroke="#333" stroke-width="2" />
+  <line x1="500" y1="130" x2="675" y2="180" stroke="#333" stroke-width="2" />
+  
+  <line x1="325" y1="230" x2="150" y2="280" stroke="#333" stroke-width="2" />
+  <line x1="325" y1="230" x2="375" y2="280" stroke="#333" stroke-width="2" />
+  <line x1="325" y1="230" x2="600" y2="280" stroke="#333" stroke-width="2" />
+  
+  <line x1="675" y1="230" x2="825" y2="280" stroke="#333" stroke-width="2" />
+  
+  <line x1="150" y1="330" x2="85" y2="380" stroke="#333" stroke-width="2" />
+  <line x1="150" y1="330" x2="225" y2="380" stroke="#333" stroke-width="2" />
+  
+  <line x1="825" y1="330" x2="825" y2="380" stroke="#333" stroke-width="2" />
+  
+  <line x1="85" y1="430" x2="85" y2="480" stroke="#333" stroke-width="2" />
+</svg>
