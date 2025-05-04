@@ -4,7 +4,7 @@
 
 ![RocketUrBiz_Trans](https://github.com/InKnowWorks/RDF-Graph-and-Hypergraph/blob/master/RocketUrBiz_Trans.png)
 
-![OPRE Header](G:\My Downloads Space\opre-header.svg)
+![OPRE Header](https://github.com/InKnowWorks/RDF-Graph-and-Hypergraph/blob/master/opre-header.svg)
 
 ------
 
