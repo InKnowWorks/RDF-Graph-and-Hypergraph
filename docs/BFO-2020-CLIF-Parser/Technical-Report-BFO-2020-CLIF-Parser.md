@@ -39,7 +39,7 @@ If you use this work in your research or implementation, please cite as:
 ```
 Truman, T. (2025). BFO 2020 CLIF Parser Design and Implementation: 
 Advanced Mereotopological Semantics and Mathematical Verification Framework. 
-Technical Report, RocketUrBiz, Inc. https://[publication-url]
+Technical Report, RocketUrBiz, Inc. https://github.com/InKnowWorks/RDF-Graph-and-Hypergraph/blob/master/docs/BFO-2020-CLIF-Parser/Technical-Report-BFO-2020-CLIF-Parser.md
 ```
 
 ![BFO-to-Z3](./images/BFO-to-Z3.gif)
