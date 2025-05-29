@@ -1,5 +1,3 @@
-# Create a new README.md in the root
-@"
 # RDF Graph and Hypergraph with BFO 2020 Integration
 
 A comprehensive repository for RDF graph and hypergraph implementations with Basic Formal Ontology (BFO) 2020 integration.
@@ -27,4 +25,3 @@ See our comprehensive [Technical Report](docs/BFO-2020-CLIF-Parser/Technical-Rep
 Tavi Truman  
 CTO & Co-Founder, RocketUrBiz, Inc.  
 InKnowWorks
-"@ | Out-File -FilePath "README.md" -Encoding UTF8
