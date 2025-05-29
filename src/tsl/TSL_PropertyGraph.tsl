@@ -1,0 +1,17 @@
+// Vertex.tsl
+cell Vertex {
+    int32 VertexId;
+    string Name;
+    list<string> PropertyKeys;
+    list<string> PropertyValues;
+}
+
+// Edge.tsl
+cell Edge {
+    int32 EdgeId;
+    string Relationship;
+    list<string> PropertyKeys;
+    list<string> PropertyValues;
+    int32 SourceVertexId;
+    int32 TargetVertexId;
+}
