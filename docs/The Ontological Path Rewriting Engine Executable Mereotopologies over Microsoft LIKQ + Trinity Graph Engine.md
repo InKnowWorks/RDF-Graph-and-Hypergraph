@@ -2,9 +2,9 @@
 
 ## Tavi Truman, CTO, RocketUrBiz, Inc.
 
-![RocketUrBiz_Trans](https://github.com/InKnowWorks/RDF-Graph-and-Hypergraph/blob/master/RocketUrBiz_Trans.png)
+![RocketUrBiz_Trans](./images/RocketUrBiz_Trans.png)
 
-![OPRE Header](https://github.com/InKnowWorks/RDF-Graph-and-Hypergraph/blob/master/opre-header.svg)
+![opre-header](./images/opre-header.svg)
 
 ------
 
@@ -46,7 +46,7 @@ The concept of "ontology as executable code" has been explored in various forms,
 
 OPRE extends Microsoft's LIKQ system with ontological semantics embedded at each traversal hop. The architecture comprises several key components that together enable the execution of ontological axioms as runtime logic.
 
-![OPRE Architecture](https://github.com/InKnowWorks/RDF-Graph-and-Hypergraph/blob/master/opre-architecture.svg)
+![opre-architecture](./images/opre-architecture.svg)
 
 ### 3.1 Architectural Components
 
@@ -71,7 +71,7 @@ The execution of ontological constraints in OPRE follows a multi-stage process:
 
 OPRE extends TGE's type system to support BFO 2020's ontological categories:
 
-![OPRE Runtime Type System](https://github.com/InKnowWorks/RDF-Graph-and-Hypergraph/blob/master/opre-type-system.svg)
+![opre-type-system](./images/opre-type-system.svg)
 
 ------
 
@@ -200,7 +200,7 @@ KnowledgeGraph
 
 OPRE implements path-based logic through LIKQ's traversal infrastructure, enhanced with ontological semantics. This section details the implementation of path logic components.
 
-![OPRE Path Logic Execution Flow](https://github.com/InKnowWorks/RDF-Graph-and-Hypergraph/blob/master/opre-path-logic.svg)
+![opre-path-logic](./images/opre-path-logic.svg)
 
 ### 5.1 FanoutSearchDescriptor Extension
 
@@ -371,7 +371,7 @@ OPRE offers several advantages over traditional semantic web technologies like S
 
 OPRE offers significant advantages over traditional W3C semantic web technologies like SPARQL, SHACL, and SWRL. The following comprehensive analysis highlights the fundamental differences in capability, approach, and performance between these technologies.
 
-![OPRE vs W3C Standards Comparison](https://github.com/InKnowWorks/RDF-Graph-and-Hypergraph/blob/master/opre-comparison-table.svg)
+![opre-comparison-table](./images/opre-comparison-table.svg)
 
 ### 7.1.1 Query Language Expressivity
 

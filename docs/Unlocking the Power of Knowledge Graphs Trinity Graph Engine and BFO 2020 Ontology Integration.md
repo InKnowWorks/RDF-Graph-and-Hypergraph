@@ -1,6 +1,6 @@
 # Unlocking the Power of Knowledge Graphs: Trinity Graph Engine and BFO 2020 Ontology Integration
 
-![image-20250501133822580](https://github.com/InKnowWorks/RDF-Graph-and-Hypergraph/blob/master/HeroImageForMayArticle-001.png)
+![HeroImageForMayArticle-001](./images/HeroImageForMayArticle-001.png)
 
 ## A Technical White Paper
 
